@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.item{
+    display: block;
+    block-size: border-box;
+    width: 25%;
+    align-items: end;
+    
+   
+}
+.ki{
+    text-align: center;
+    color: black;
+    background-color: rgb(141, 206, 170);
+    border: 3px solid rgba(207, 117, 39, 0.842);
+    width: 20%;
+   
+
+
+}
