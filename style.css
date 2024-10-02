@@ -84,9 +84,15 @@ header{
 }
 .flex2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
 }
+.l{
+    width: 30%;
+    display: block;
+}
 .cl{
+    border: 10px solid black;
+    p
 
 }
