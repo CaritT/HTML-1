@@ -1,11 +1,13 @@
 html body{
     margin: 0;
     background-color: whitesmoke;
+   
 }
+
+
 .z{
     color: white;
-    /* padding-left: 125px; */
-    /* text-align: center; */
+
 
 
 }
@@ -15,7 +17,9 @@ html body{
     /* padding-top: 5px; */
     padding-right: 5px;
 }
-
+.t{
+    width: 350px;
+}
 header{
     position: relative;
     background-color: rgb(15, 2, 2);
@@ -37,8 +41,9 @@ header{
 
 }
 .main{
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
+    background-color: black;
 }
 .hr{
     justify-content: right;
@@ -62,7 +67,7 @@ header{
     height: 250px;
     background-repeat: no-repeat;
     background-position: center;
-    width: 900px;
+    width: 1100px;
     display: flex;
     align-items: center;
 
@@ -76,7 +81,7 @@ header{
 }
 .htext{
     font-size: 50px;
-    color: white;
+    color: white; 
     position: absolute;
     left: 30%;
     text-shadow: 5px 0 10px white;
@@ -88,11 +93,43 @@ header{
 
 }
 .l{
-    width: 30%;
+    width: 25%;
     display: block;
 }
-.cl{
-    border: 10px solid black;
-    p
+.r{
+    display: block;
 
+}
+.menu{
+
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10%;
+}
+
+.text{
+text-align: center;
+    color: aliceblue;
+    display: block;
+
+}
+.down{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.ccl{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 13px;
+    background-color: rgb(73, 14, 112);
+    margin-bottom: 0;
+    color: aliceblue;
+    padding-left: 37%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.cl{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 13px;
+    background-color: rgb(73, 14, 112);
+    overflow: hidden;
 }
